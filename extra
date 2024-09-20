@@ -1,0 +1,27 @@
+/* Set a background image for the body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('./img/bg_2.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+     /* Optional: Adjust text color for better readability */
+}
+
+/* To overlay the content */
+.container {
+    position: relative;
+    z-index: 1; /* Ensures that this content is above the background */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for the overlay */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* If you want to apply the overlay to a specific section */
+.section-head {
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Semi-transparent background for a specific section */
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
